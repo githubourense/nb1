@@ -16,8 +16,9 @@ public class JavaApplication1
     */
     double FahrenheitCelsius(double grado)
     {
+        int i = 0;
         double gCelsius=(grado-32)/1.8;
-        return gCelsius;
+        return gCelsius;        
     }
  
     double CelsiusFahrenheit(double grado)
